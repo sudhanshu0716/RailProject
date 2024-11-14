@@ -1,0 +1,160 @@
+body {
+  height:100%;
+  background-image: url("../../photos/login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main-page{
+  position: relative;
+  height: 100vh;
+  background-image: url('../photos/3-min.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  color: azure;
+}
+
+.logo {
+  padding-top: px;
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #F5F5F5;
+}
+
+.tag-2{
+  font-size: 1.5rem;
+  color: rgb(182, 176, 176);
+  
+  font-weight: bold;
+  transform: translateZ(0);
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  width: 22.5%;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.main-button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border: none;
+  flex-grow: 1;
+  height: 45px;
+}
+
+.login-btn{
+  background-color: #4CAF50;
+}
+
+.lost-found-btn {
+  background-color: #f44336;
+}
+
+.main-button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.login-btn:hover {
+  background-color: #388E3C;
+}
+
+.lost-found-btn:hover {
+  background-color: #d32f2f;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  color: white;
+}
+
+.main-tagline {
+  color: white;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  text-decoration: whitesmoke underline dotted;
+}
+
+.main-tagline div {
+  margin: 10px 0;
+}
+
+.show-first-tagline {
+  opacity: 1;
+}
+
+.show-second-tagline {
+  opacity: 1;
+}
+
+.main-tagline .tagline-line {
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.main-tagline:hover {
+  color: yellow;
+  transform: scale(1.1);
+}
+
+.main-tagline .tagline-line-1:hover {
+  color: #ff5733;
+}
+
+.main-tagline .tagline-line-2:hover {
+  color: #3498db;
+}
+
+.main-tagline .tagline-line-3:hover {
+  color: #2ecc71;
+}
+
+.get-started-button-main {
+  padding: 15px 30px;
+  margin-top: 60px;
+  font-size: 1.2rem;
+  background-color: #41B3A2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.get-started-button-main:hover {
+  background-color: #0077aa;
+}

@@ -1,0 +1,77 @@
+.first-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 95.4vh;
+    background-image: url(../../photos/fpbg1.jpg);
+    background-size: cover;
+  }
+  
+  .fphead {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .fpmm{
+    color: aliceblue;
+    font-size: 35px;
+  }
+  .fpmm:hover{
+    font-size: 40px;
+    color: #4CC9FE;
+  }
+  
+  .fpbtn button{
+    width: 100px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+    gap: 50px; /* Space between cards */
+    max-width: 800px;
+    width: 100%;
+    margin-top: 4vh;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .first-page-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .first-page-card-photo {
+    height: 50%;
+    overflow: hidden;
+  }
+  
+  .first-page-card-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .first-page-card-name {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .first-page-card-name h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

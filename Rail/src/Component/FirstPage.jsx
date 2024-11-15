@@ -8,7 +8,6 @@ const FirstPage = () => {
     const handlelogout= () => {
     logoutmove('/');
   };
-  // Array containing objects with name and photo URL
   const cardData = [
     { name: 'Scenic Views', photoUrl: '../../photos/scenic.jpg' },
     { name: 'Crush the Rush', photoUrl: '../../photos/crush_the_rush.jpg' },

@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js dependencies and build output (not needed in Git)
 node_modules
 dist
 dist-ssr
@@ -22,3 +23,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ensure package-lock.json is committed (helps with dependency consistency)
+# If you're using npm, make sure this file is **not** in .gitignore
+# (if it's ignored, you might have issues with builds or deployments)
+!package-lock.json
+
+# Ensure your `package.json` is not ignored
+# This is critical for Netlify and the build process to work
+!package.json

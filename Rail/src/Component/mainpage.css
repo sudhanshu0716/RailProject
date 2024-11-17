@@ -1,8 +1,6 @@
 body {
   height:100%;
-  background-image: url("../../photos/login.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fafeff;
 }
 
 *{
@@ -13,7 +11,7 @@ body {
 .main-page{
   position: relative;
   height: 100vh;
-  background-image: url('../photos/3-min.png');
+  background-image: url(../../photos/3-min.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,7 +144,7 @@ body {
 .get-started-button-main {
   padding: 15px 30px;
   margin-top: 60px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   background-color: #41B3A2;
   border: none;
   color: white;
@@ -157,4 +155,12 @@ body {
 
 .get-started-button-main:hover {
   background-color: #0077aa;
+}
+
+
+.mpfooter{
+  width: 100%;
+  font-size: 30px;
+  color: whitesmoke;
+  transform: translateY(96vh);
 }

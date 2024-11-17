@@ -1,11 +1,11 @@
 import React from 'react';
-import './card.css'; // External CSS for styling
+import './card.css'; 
 
-const Card = ({ name, photoUrl, backgroundColor }) => {
+const Card = ({ name, photoUrl, backgroundColor, onClick }) => { 
   return (
-    <div className="card-container" style={{ backgroundColor }}>
+    <div className="card-container" style={{ backgroundColor }} onClick={onClick}> 
       <div className="card-photo">
-        <img src={photoUrl} alt="Profile" />
+        <img src={photoUrl} alt="Card" />
       </div>
       <div className="card-name">
         <h3>{name}</h3>

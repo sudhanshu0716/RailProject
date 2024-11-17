@@ -1,0 +1,14 @@
+
+.scn-heading{
+    display: inline-flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+
+}
+.scn-lgout-btn{
+    width: 300px;
+    padding-left: 1300px;
+    padding-top: 20px;
+
+}

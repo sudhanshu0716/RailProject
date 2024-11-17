@@ -1,0 +1,129 @@
+.lst-form-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url("../../photos/lt.png");
+    background-size: cover;
+    width: 97.6%;
+    padding: 20px;
+    height: 95.4vh;
+  }
+
+  .lfhead {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .lfoutbtn button{
+    width: 100%;
+  }
+
+  .lfbackbtn button{
+    width: 100%;
+  }
+  
+  .lst-form-container {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 4px 1px rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .lst-form-title {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-decoration: underline dotted;
+  }
+  
+  .lst-form-content {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+  }
+  
+  .lst-form-section {
+    width: 48%; 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .lst-form-section .sectext{
+    font-size: 25px;
+    font-style: italic;
+  }
+
+  
+  .lst-form-entry label {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .lst-form-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .lst-form-textarea {
+    width: 95%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: vertical;
+    height: 60px;
+  }
+  
+  .lst-submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    width: 30%;
+    margin-left: 21vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lst-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .lst-lost-items ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lst-lost-items li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lst-lost-items p {
+    color: #000000;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .lst-form-section {
+      width: 100%;
+    }
+  }
+  

@@ -4,10 +4,20 @@
     justify-content: center; 
     align-items: center;
     height: 100vh;
+    background-image:url("../../photos/login.png");
+    background-size: cover;
   }
   
-  .login-form-container,
-  .signup-form-container {
+  .login-form-container {
+    width: 300px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    scale:1.3;
+  }
+  .signup-form-container{
     width: 300px;
     padding: 2rem;
     border-radius: 10px;
@@ -101,6 +111,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 10vh;
   }
   
   .login-button:hover {
@@ -120,6 +131,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 10vh;
   }
   
   .signup-button:hover {

@@ -13,6 +13,11 @@ const MainPage = () => {
     navigate('/signup');
   };
 
+  const handleContactUsClick=()=>{
+    navigate('/contact');
+  };
+
+
   const [showFirstTagline, setShowFirstTagline] = React.useState(true);
 
   React.useEffect(() => {
@@ -35,7 +40,7 @@ const MainPage = () => {
         </h1>
         <div className="header-buttons">
           <button className="main-button login-btn" onClick={handleLoginClick}>Login</button>
-          <button className="main-button lost-found-btn">Lost and Found</button>
+          <button className="main-button lost-found-btn" onClick={handleContactUsClick}>Contact Us</button>
         </div>
       </div>
 
@@ -57,6 +62,8 @@ const MainPage = () => {
         </div>
         <button className="get-started-button-main" onClick={handleGetStartedClick}>Get Started</button>
       </div>
+
+      <div className="mpfooter"><marquee behavior="scroll" direction="" scrollamount="20">RAIL JOURNEY MATE: YOUR ULTIMATE RAIL TRAVEL COMPANION || EXPLORE INDIA,TRACK AT A TIME!!</marquee></div>
     </div>
   );
 };

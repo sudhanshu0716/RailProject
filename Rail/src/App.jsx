@@ -4,6 +4,9 @@ import MainPage from './Component/MainPage';
 import Login from './Component/Login';
 import Signup from './Component/SignUp';
 import FirstPage from './Component/FirstPage';
+import Scenic from './Component/ScenicViews';
+import Lst from './Component/Lost';
+import ContactUs from './Component/ContactUs';
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
             <Route path="/login" element={<Login />} />  Login page
             <Route path="/signup" element={<Signup />} />  Signup page
             <Route path="/firstpage" element={<FirstPage/>}/>
+            <Route path="/scenic" element={<Scenic/>}/>
+            <Route path="/lost" element={<Lst/>}/>
+            <Route path='/contact' element={<ContactUs/>}/>
           </Routes>
         </header>
       </div>
